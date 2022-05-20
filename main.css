@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    /* font-family: 'Rubik Glitch', cursive; */
+}
+
+body{
+    background-color: rgb(8, 8, 8);
+}
+
+/* NAVBAR */
+nav{
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+
+nav::before{
+    content: '';
+    display: block;
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.nav-ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+.nav-ul .nav-li{
+    float: left;
+    margin-top: 15px;
+}
+
+.nav-ul .nav-li .nav-a{
+    color: white;
+    display: block;
+    font-size: 20px;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.nav-ul .nav-li .nav-a:hover{
+    background:#0b669b;
+    border-radius: 20px;
+
+}
+
+.logo{
+    position: absolute;
+    left: 400px;
+    background-color: rgba(66, 65, 65, 0.0);
+    width: 80px;
+    height: 80px;
+}
+
+.content{
+    min-height: 100vh;
+}
+
+.preview-image{
+    width: 100%;
+    height: 90vh;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pricing-table{
+    background-color: rgb(44, 44, 44);
+    flex: 1;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.pricing-header{
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.triangle-top1{
+    width: 0;
+    height: 0;
+    border-top: 60px solid rgb(22, 69, 100);
+    border-right: 100px solid transparent;
+    position: absolute;
+}
+
+.triangle-top2{
+    width: 0;
+    height: 0;
+    border-top: 60px solid rgb(204, 110, 2);
+    border-right: 100px solid transparent;
+    position: absolute;
+}
+
+.triangle-top3{
+    width: 0;
+    height: 0;
+    border-top: 60px solid rgb(92, 14, 14);
+    border-right: 100px solid transparent;
+    position: absolute;
+}
+
+.price{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.price span{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+strong{
+    color: #2fb3b3;
+}
+
+.title{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80%;
+    max-width: 360px;
+    text-align: center; 
+    padding: 8px 0;
+    font-size: 20px;   
+}
+
+.pricing-list li{
+    margin: 8px 0;
+    font-size: 14px;
+    color: #2fb3b3;
+    text-align: center;
+}
+
+.border{
+    width: 80px;
+    height: 1px;
+    background: white;
+    margin: auto;
+}
+
+.pricing-table a{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+    border: 1px solid rgb(255, 255, 255);
+    max-width: 360px;
+}
+
+.pricing-table a:hover{
+    border-radius: 30px;
+}
+
+.table1 .pricing-header{
+    background: #2980b9;
+}
+
+.table2 .pricing-header{
+    background: #ff7b00;
+}
+
+.table3 .pricing-header{
+    background: #c0392b;
+}
+
+.pricing-table:hover{
+    transform: scale(1.1);
+}
+
+.table1 a{
+    color: #2980b9;
+}
+
+.table2 a{
+    color: #ff7b00;
+}
+
+.table3 a{
+    color: #c0392b;
+}
+
+.table1 a:hover{
+    background-color: #2980b9;
+    color: white;
+}
+
+.table2 a:hover{
+    background-color: #ff7b00;
+    color: white;
+}
+
+.table3 a:hover{
+    background-color: #c0392b;
+    color: white;
+}
+
+
+
+/* FOOTER */
+footer{
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+footer::before{
+    content: '';
+    display: block;
+    height: 80px;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+
+footer li{
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin-left: 30px;  
+    margin-top: 15px; 
+}
+
+
+footer a{
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Koulen', cursive;
+}
+
+footer a:hover{
+    border-bottom: 1px solid white;
+}
+
+.tg:hover{
+    color: #2980b9;
+}
+
+.inst:hover{
+    color: #70065f;
+}
+
+.face:hover{
+    color: rgb(24, 51, 170);
+}
+
+.twit:hover{
+    color: skyblue;
+}
+
+
+
+
+
+
+
+
